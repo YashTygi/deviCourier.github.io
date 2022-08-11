@@ -1,0 +1,90 @@
+
+:root {
+  --font-family: 'Nunito', sans-serif;
+  --navy-blue: #065a82;
+  --blue-grotto: #00b4d8;
+  --white: #fff;
+  --bluish-white:#caf0f8;
+  --yellow: #f8b92a;
+  --light-blue:#90e0ef;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+.bg-white{
+  background: #fff;
+}
+
+.section_padding {
+  padding: 3rem 3rem 1.2rem 3rem;
+}
+
+.section_margin {
+  margin: 1rem 3rem;
+}
+
+.focus{
+  color: var(--yellow)
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .section_padding {
+    padding: 1rem;
+  }
+
+  .section_margin {
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section_padding {
+    padding: 2rem 1rem;
+  }
+  
+  .section_margin {
+    margin: 2rem 1rem;
+  }
+}
+

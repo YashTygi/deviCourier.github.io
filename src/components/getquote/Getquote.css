@@ -1,0 +1,14 @@
+:root {
+    --font-family: 'Nunito', sans-serif;
+    --navy-blue: #065a82;
+    --blue-grotto: #00b4d8;
+    --white: #eaeae0;
+    --yellow: #ffc41f;
+    --bluish-white:#caf0f8;
+    --light-blue:#90e0ef;
+    --font-size-normal: 400;
+    --font-size-medium : 500;
+    --font-size-bold: 700;
+    --font-size-bolder: 900;
+}
+

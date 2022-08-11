@@ -1,0 +1,77 @@
+:root {
+    --font-family: 'Nunito', sans-serif;
+    --navy-blue: #065a82;
+    --blue-grotto: #00b4d8;
+    --white: #eaeae0;
+    --bluish-white:#caf0f8;
+    --yellow: #f8b92a;
+    --light-blue:#90e0ef;
+    --font-size-normal: 400;
+    --font-size-medium : 500;
+    --font-size-bold: 700;
+    --font-size-bolder: 900;
+}
+
+.bg-navy-blue{
+    /* background: rgba(6, 90, 130, 1);  */
+    background-image: url('../../../assets/wave.png');
+    background-color: var(--bluish-white);
+    background-repeat: repeat-x;
+}
+
+
+
+.container {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    align-items: center;
+    justify-items: center;
+    padding: 1rem 3rem;
+}
+
+
+
+
+/* .card span { 
+    background-color: var(--blue-grotto);
+    width: 50px;
+    height: 50px;
+    border:none;
+    outline: none;
+    border-radius: 60px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.2) 0px 30px 60px -30px, rgba(10, 37, 64, 0.25) 0px -2px 6px 0px inset;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 200ms ease-in-out;
+    transition-delay: 100ms;
+}
+
+.card span:hover{
+    background-color: var(--yellow);
+}
+*/
+
+
+.Whychooseus {
+    position: relative;
+    color:#fff;
+    font-size: 1.7rem;
+    font-weight: var(--font-size-bold);
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+
+.icon{
+    transition: all 500ms ease-in-out;
+}
+
+.icon:hover {
+    transform: rotateZ(180deg);
+}
+

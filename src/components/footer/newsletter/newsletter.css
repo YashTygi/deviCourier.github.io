@@ -1,0 +1,92 @@
+:root {
+    --font-family: 'Nunito', sans-serif;
+    --navy-blue: #065a82;
+    --blue-grotto: #00b4d8;
+    --white: #eaeae0;
+    --yellow: #ffc41f;
+    --bluish-white:#caf0f8;
+    --light-blue:#90e0ef;
+    --font-size-normal: 400;
+    --font-size-medium : 500;
+    --font-size-bold: 700;
+    --font-size-bolder: 900;
+}
+
+.nws-tab{
+    width: 100%;
+    height: 300px;
+    background: var(--light-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nws-box{
+    width: 70%;
+    height: 85%;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    background: var(--blue-grotto);
+}
+
+.nws-heading{
+    font-size: 2.25rem;
+    font-weight: var(--font-size-bold);
+    text-align: center;
+    color: #fff;
+    padding-top: 1.4rem;
+    letter-spacing: 0.02rem;
+    word-spacing: 0.015rem;
+}
+
+.nws-sub{
+    font-size: 0.96rem;
+    font-weight: var(--font-size-normal);
+    text-align: center;
+    color: #fff;
+    padding-top: 0.1rem;
+}
+
+.nws-input-block{
+    width: 100%;
+    margin: 4rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nws-input{
+    width: 100%;
+    min-height: 50px;
+    font-weight: var(--font-size-normal);
+    color: #98afc7;
+    
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
+
+.nws-btn{
+    min-height: 50px;
+    width: 50%;
+    margin-top: 0.4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--light-blue);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
