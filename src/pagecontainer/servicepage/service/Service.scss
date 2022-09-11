@@ -1,0 +1,221 @@
+    $font-family: 'Nunito', sans-serif;
+    $navy-blue: #065a82;
+    $blue-grotto: #00b4d8;
+    $blue:rgb(107,166,236);
+    $white: #fff;
+    $yellow: #ffc41f;
+    $bluish-white:#caf0f8;
+    $light-blue:#90e0ef;
+    $font-size-normal: 400;
+    $font-size-medium : 500;
+    $font-size-bold: 700;
+    $font-size-bolder: 900;
+
+.services-container{
+    padding: 0rem 0.3rem;
+    margin: 0 auto;
+    min-height: 100vh;
+    width: 95vw;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.row{
+    min-height: 90vh;
+    outline: none;
+    border: none;
+
+    display: flex;
+    flex-direction: row;
+    background: $blue-grotto;
+    border-radius: 40px;
+    h1{
+        color: $navy-blue;
+        font-size: 1.53rem;
+        padding-bottom: 0.5rem;
+    }
+    p{
+        color:$white;
+        font-size: 0.9rem;
+        text-align:justify;
+    }
+}
+.row-reverse{
+    min-height: 90vh;
+    outline: none;
+    border: none;
+
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #fff;
+    border-radius: 40px;
+    h1{
+        color: $navy-blue;
+        font-size: 1.53rem;
+        padding-bottom: 0.5rem;
+    }
+    p{
+        font-size: 0.9rem;
+        text-align:justify;
+    }
+}
+
+.service-content{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 0 1rem 0 2rem;
+}
+
+.service-images{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 1rem;
+    img {
+        width: 95%;
+        height: 90%;
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+    .row{
+        p{ 
+            font-size: 0.55rem;
+        }
+        h1 {
+            font-size: 1.3rem;
+            }
+    }
+    .row-reverse{
+        p{ 
+            font-size: 0.55rem;
+        }
+        h1 {
+            font-size: 1.3rem;
+            }
+    }
+    img{
+        width: 75%;
+        height: 60%;
+    }
+    .row h1,
+    .row-reverse 
+    .service-sidebar-list li{
+        font-size: 0.74rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .Services{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .service-sidebar{
+        position: relative;
+        display: none;
+        width: 80vw;
+        height: 30vh;
+    }
+    .service-sidebar-list{
+        display: inline-block;
+    }
+    .services-container{
+        width: 98vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .row{
+        p{
+            font-size: 0.55rem;
+        }
+        h1 {
+            font-size: 1.3rem;
+            }
+    }
+    .row-reverse{
+        p{
+            font-size: 0.55rem;
+        }
+        h1 {
+            font-size: 1.3rem;
+            }
+    }
+    img{
+        width: 75%;
+        height: 60%;
+    }
+    .row h1,
+    .row-reverse 
+    .row p,
+    .row-reverse p{
+        font-size: 0.65rem;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .row,
+    .row-reverse{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 80vh;
+    }
+    
+}
+
+
+/*Service Tab*/
+
+.service-tab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top:-3rem;
+    padding: 1rem 2rem 0 2rem;
+    img{
+        width: 30%;
+        height: 20%;
+    }
+}
+.service-tab-left{
+    min-height: 30vh;
+    width: 68%;
+    background:rgb(107,166,236);
+    border-radius: 20px;
+    padding: 1.8rem;
+  h1{
+    font-size: 1.9rem;
+    font-weight: $font-size-bold;
+    color: $white;
+    text-align: start;
+  }
+}
+.viewservices{
+    display: inline-block;
+    width: 160px;
+    height: 43px;
+    background: $yellow;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin: 0rem 0.3rem;
+    padding: 0rem 0.3rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    color: $white;
+  }
+

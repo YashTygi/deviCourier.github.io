@@ -1,0 +1,44 @@
+$navy-blue: #065a82;
+    $blue-grotto: #00b4d8;
+    $blue:rgb(107,166,236);
+    $white: #fff;
+    $yellow: #ffc41f;
+.contact-tab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 1rem 2rem 0 2rem;
+    margin-bottom: 1.5rem;
+    img{
+        width: 20%;
+        height: 20%;
+    }
+}
+.contact-tab-content{
+    min-height: 30vh;
+    width: 75%;
+    background:$blue;
+    border-radius: 20px;
+    padding: 1.8rem;
+  h1{
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: $white;
+    text-align: start;
+  }
+}
+.contact-tab-contact{
+    display: inline-block;
+    width: 160px;
+    height: 43px;
+    background: $yellow;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin: 0rem 0.3rem;
+    padding: 0rem 0.3rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    color: $white;
+}

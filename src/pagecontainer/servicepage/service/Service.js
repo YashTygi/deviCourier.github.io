@@ -1,55 +1,47 @@
 import React,{ useEffect } from 'react'
+import {Link} from 'react-router-dom'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import './Service.css'
-import { Getquote } from '../../../components'
+import './Service.scss'
+import service from '../../../assets/services.jpg'
 import serviceData from '../../../serviceData.json'
 
 const Service = () => {
   useEffect(() => {
     AOS.init()
   },[])
-
-  
   return (
-    
     <div className='services-container'>
       {
         serviceData.ServiceInfo.map((serve) => {
           let decide = serve.id % 2;
           return(
-            
               <div className={decide === 0 ? "row" : "row-reverse"} key={serve.id}>
-               <div className='service-images' data-aos={decide === 0 ? "fade-right" : "fade-left"} data-aos-duration='1000' data-aos-delay='100'>
-                <img src={serve.img} />
+               <div className='service-images' data-aos="fade-up" data-aos-duration='1000' data-aos-delay='100'>
+                <img src={serve.img} alt='services-we-offer'/>
                </div>
-               <div className='service-content' data-aos={decide === 0 ? "fade-left" : "fade-right"} data-aos-duration='1000' data-aos-delay='100'> 
+               <div className='service-content' data-aos="fade-up" data-aos-duration='1000' data-aos-delay='500'> 
                 <h1>{serve.serviceName}</h1>
                 <p>{serve.content}</p>
                </div>
               </div>
-           
           )
         })
       }
-      <Getquote />
     </div>
+    
   )
 }
 
 
-export const ServicesOffer = () => {
+export const ServicesTab = () => {
   return(
     <div className="service-tab">
-    <ul className="service-tab-list">
-    { serviceData.ServiceInfo.map((sdata) => {
-      return(
-        <li className='service-tab-info' key={sdata.id}>
-          {sdata.serviceName}
-        </li>
-      )
-    })}
-    </ul>
+    <div className="service-tab-left">
+     <h1>Know more about the services, we offer for your hassle-free delivery</h1> 
+     <Link to='/service'><button className='viewservices'>View Services</button></Link>
+    </div>
+    <img src={service} alt="services" />
     </div>
   )
 }

@@ -1,8 +1,6 @@
-import React, {useState,useEffect} from 'react'
-import "./Navbar.css"
-import DropDown from './DropDown';
+import React, {useState} from 'react'
+import "./Navbar.scss"
 import logo from '../../assets/logo.png';
-import AOS from 'aos';
 import {Link} from 'react-router-dom';
 import { CgMenu,CgClose } from 'react-icons/cg';
 import { IoMdArrowDropdown } from 'react-icons/io';
@@ -10,18 +8,12 @@ import { IoMdArrowDropdown } from 'react-icons/io';
 
 const Navbar = () => {
 
-  useEffect(() => {
-    AOS.init()
-  },[])
-
-  const [login, setLogin] = useState(false);
-
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
   const [shadow, setShadow] = useState(false);
   const shadowActive = () => {
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 5) {
       setShadow(true);
     } else {
       setShadow (false);
@@ -34,42 +26,24 @@ const Navbar = () => {
         <div className='navbar_links'>
           <div className='navbar_logo'>
             <img src={logo} alt='logo' />
-            <p className='logo-title' data-aos="fade" data-aos-duration="400" data-aos-delay='50' data-aos-easing='ease-in-out-quad'><Link to='/'>Devi Courier</Link></p>
+            <p className='logo-title'>
+             <Link to='/'>Devi Courier</Link>
+            </p>
           </div>
           <div className='navbar_link_list'>
 
           <p className='link'><Link to='/'>Home</Link></p>
-
-          <p className='link'>
-            <Link to='/service'>
-              Services<IoMdArrowDropdown/>
-              
-            </Link>
-          </p>
-
-          <p className='link'><Link to='/track'>Tracking</Link></p>
-
-          <p className='link'>
-            <Link to='/feature'>
-              Feature<IoMdArrowDropdown/>
-            </Link>
-          </p>
-
-          <p className='link'>
-            <Link to='/contactUs'>
-              Contact us<IoMdArrowDropdown/>
-            </Link>
-          </p>
-
-          <p className='link'><Link to='/career'>Career</Link></p>
+          <p className='link'><Link to='/about-us'>About Us</Link></p>
+          <p className='link'><Link to='/service'>Services</Link></p>
+          <p className='link'><Link to='/contact-us'>Contact us</Link></p>
           </div>  
-        <div className='small-nav'>
-         <div className='navbar_get_quote'>
-            <button className='btn'>
-              <p>{login ? "Get Quote" : "Sign up"}</p>
+        <div className='side-nav'>
+         <div className='navbar_contact'>
+            <button className='btn-in'>
+              <Link to='/sign-up'><p>Sign Up</p></Link>
             </button>
-            <button className={login ? 'null' : 'btn-login'}>
-              <p className='btn-login-p'>Login</p>
+            <button className='btn-up'>
+              <Link to='/sign-in'><p>Sign In</p></Link>
             </button>
           </div>
           <div className='menu' onClick={handleClick}>
@@ -81,20 +55,10 @@ const Navbar = () => {
               <div className='menu-container scale-up-center'>
                 <div className='menu_link_list'>
                 <p className='link'><Link to='/'>Home</Link></p>
-                <p className='link'><Link to='/service'>Services<IoMdArrowDropdown/></Link></p>
-                <p className='link'><Link to='/track'>Tracking</Link></p>
-                <p className='link'><Link to='/feature'>Feature<IoMdArrowDropdown/></Link></p>
-                <p className='link'><Link to='/contactUs'>Contact us<IoMdArrowDropdown/></Link></p>
-                <p className='link'><Link to='/career'>Career</Link></p>
+                <p className='link'><Link to='/about-us'>About Us</Link></p>
+                <p className='link'><Link to='/service'>Services</Link></p>
+                <p className='link'><Link to='/contact-us'>Contact us<IoMdArrowDropdown/></Link></p>
                 </div>
-                <div className='menu_button'>
-                  <button className='btn-menu'>
-                    <p>{login ? "Get Quote" : "Sign up"}</p>
-                  </button>
-                  <button className={login ? 'null' : 'btn-login'}>
-                    <p>Login</p>
-                  </button>
-              </div>
               </div>
             }
           </div>

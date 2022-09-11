@@ -1,5 +1,19 @@
-[
-    {
-        "KnowYourCustomer":""
-    }
-]
+{
+    "FeatureInfo":[
+        {
+            "id": 1,
+            "name": "Lorem Ipsum",
+            "context": "qwkdbbwfbf"
+        },
+        {
+            "id": 2,
+            "name": "Lorem Ipsum",
+            "context": "wgdvjewvdvewdvekdewu"
+        },
+        {
+            "id": 3,
+            "name": "Lorem Ipsum",
+            "context": "dkhqhbdwqvdjhewvdwevh"
+        }
+    ]
+}

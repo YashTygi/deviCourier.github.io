@@ -1,0 +1,51 @@
+$font-family: 'Nunito', sans-serif;
+$navy-blue: #065a82;
+$blue-grotto: #00b4d8;
+$blue:rgb(107,166,236);
+$white: #fff;
+$grey: #aeaeae;
+$yellow: #ffc41f;
+$bluish-white:#caf0f8;
+$light-blue:#90e0ef;
+.feature-tab{
+    background-color: $blue;
+    margin: 1rem;
+    border-radius: 20px;
+    h1{
+        text-align: center;
+        font-size: 2rem;
+        color:$white;
+        padding-top: 1.5rem;
+    }
+}
+.feature-container{
+    min-height: 45vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.feature-card{
+    padding: 1.4rem;
+    background: $white;
+    width: 300px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 10px;
+    img{
+        width: 50%;
+        height: 50%;
+    }
+    h2{
+        color: $blue;
+        font-size: 1.5rem;
+    }
+    p{
+        color: $grey;
+    }
+}

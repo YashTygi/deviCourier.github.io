@@ -1,0 +1,107 @@
+    $font-family: 'Nunito', sans-serif;
+    $navy-blue: #065a82;
+    $blue-grotto: #00b4d8;
+    $white: #eaeae0;
+    $yellow: #ffc41f;
+    $bluish-white:#caf0f8;
+    $light-blue:#90e0ef;
+    $font-size-normal: 400;
+    $font-size-medium : 500;
+    $font-size-bold: 700;
+    $font-size-bolder: 900;
+
+
+.section-padding{
+    padding: 1rem 2rem 0 2rem;
+}
+
+.footer{
+    min-height: 28vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    background: $navy-blue;
+    color: #fff;
+}
+
+.self-section{
+    width: 40%;
+   p{
+    text-align: center;
+    font-size: 0.96rem;
+    color: #fff;
+    word-break: keep-all;
+    letter-spacing: 0.01rem;
+}
+}
+.nav-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-section{
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 45%;
+    span{
+        border: 3.4px solid #fff;
+        border-radius: 50%;
+    
+        padding: 0.5rem;
+        margin: 0.5rem;
+    
+        width: 50px;
+        height: 50px;
+    
+        background: $blue-grotto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+
+
+
+.focus {
+    font-size: 0.96rem;
+    color: $yellow;
+}
+
+.copyright-section{
+    background: $navy-blue;
+    color: $light-blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 1rem;
+    margin-top: 0.2rem;
+
+    position: relative;
+    a{
+        color:$yellow;
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+    .section-padding{
+        padding: 1.7rem 1rem;
+    }
+    .self-section{
+        padding-right: 1rem;
+        p{
+            font-size: 0.7rem;
+        }
+    }
+    .copyright-section{
+        font-size: 0.7rem;
+    }
+};
