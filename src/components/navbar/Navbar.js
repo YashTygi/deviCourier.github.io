@@ -57,7 +57,7 @@ const Navbar = () => {
                 <p className='link'><Link to='/'>Home</Link></p>
                 <p className='link'><Link to='/about-us'>About Us</Link></p>
                 <p className='link'><Link to='/service'>Services</Link></p>
-                <p className='link'><Link to='/contact-us'>Contact us<IoMdArrowDropdown/></Link></p>
+                <p className='link'><Link to='/contact-us'>Contact us</Link></p>
                 </div>
               </div>
             }

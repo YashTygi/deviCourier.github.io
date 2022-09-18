@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import './Whychooseus.scss';
-import cardData from '../../../whyChooseUsData.json'
+import cardData from '../../../Data/whyChooseUsData.json'
 import whyus from '../../../assets/whyus.jpg'
 const Whychooseus = () => {
 

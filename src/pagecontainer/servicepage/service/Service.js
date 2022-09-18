@@ -4,7 +4,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import './Service.scss'
 import service from '../../../assets/services.jpg'
-import serviceData from '../../../serviceData.json'
+import serviceData from '../../../Data/serviceData.json'
 
 const Service = () => {
   useEffect(() => {

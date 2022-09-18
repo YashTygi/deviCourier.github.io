@@ -167,6 +167,7 @@ button:hover .button-text {
     .header {
         flex-direction: row;
         margin-top: 3rem;
+        background-size: 140%;
     }
     .header-content {
         padding-top: 1rem;
@@ -176,7 +177,7 @@ button:hover .button-text {
         line-height: 3rem;
     }
     .header-content p{
-        font-size: 0.9rem;
+        font-size: 1rem;
 
     }
     
@@ -205,11 +206,13 @@ button:hover .button-text {
 
 @media screen and (max-width: 840px){
     .header {
+        height: 50vh;
         flex-direction: column;
         margin-top: 3rem;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-size: 160%;
     }
     .heading{
         font-size: 1.7rem;
@@ -241,14 +244,16 @@ button:hover .button-text {
 
 @media screen and (max-width: 500px) {
     .heading{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         line-height: 1.9rem;
         padding-bottom: 0.3rem;
         text-align: center;
     }
-    .header img {
+    .header {
+        background-image: none;
+        img {
         width: 250px;
         height: 250px;
     }
-
+    }
 }

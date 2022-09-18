@@ -1,6 +1,6 @@
 import React from 'react'
 import './Feature.scss'
-import featureData from '../../../featureData.json'
+import featureData from '../../../Data/featureData.json'
 
 function Feature() {
   return (
@@ -11,9 +11,11 @@ function Feature() {
       featureData.FeatureInfo.map((fdata) => {
         return(
         <div className='feature-card' key={fdata.id}>
-         <img alt='feature' />
-         <h2>{fdata.name}</h2>
-         <p>{fdata.context}</p>
+          <img alt='feature' />
+         <div>
+          <h2>{fdata.name}</h2>
+          <p>{fdata.context}</p>
+         </div>
         </div>
         )
       })

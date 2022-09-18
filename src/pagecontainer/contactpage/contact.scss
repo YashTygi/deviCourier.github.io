@@ -7,6 +7,7 @@ $grey:#aeaeae;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    background: #aeaeae;
 
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.1)), url('../../assets/multicultural.jpg');
@@ -63,4 +64,35 @@ $grey:#aeaeae;
 .leftarrow{
     margin-right: 0.5rem;
     margin-top: 0.6rem;
+}
+
+@media screen and (max-width: 950px) {
+    .contacts-form{
+        padding: 0.6rem;
+    }
+}
+@media screen and (max-width: 850px) {
+    .contacts-form{
+        flex-direction: column;
+        margin-top: 1.2rem;
+    }
+    .getintouch{
+        border-bottom: 2px solid #000;
+        border-right: none;
+        align-items: center;
+        p{
+            text-align: center;
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .contacts{
+        background: $white;
+        span{
+            color:$black;
+        }
+    }
+    .getintouch{
+        border: none;
+    }
 }

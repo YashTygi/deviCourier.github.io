@@ -1,0 +1,60 @@
+{
+"ServiceInfo":[
+    {
+        "id": 1,
+        "btn": true,
+        "serviceName": "E-commerce Delivery Solutions",
+        "img":"images/delivery.png",
+        "useRef":"deliverysolutions",
+        "content":"Our routine engagement with International E-Commerce sellers, has helped to create a range of cost and time-sensitive products for all kind of E-Commerce sellers, whether You are an MFN merchant on E Bay, ETSY, Shopify, Zibbet, Fruugo, Bonanza, Newegg and Alibaba or you need Amazon FBA delivery solution on DDU or DDP mode. Our association with all the world's major postal and express delivery solution companies Range of delivery solutions cover all major target locations of international E-Commerce Vendors, namely United State, United Kingdom, Europe, Australia, all over the Far East and Middle Eastern countries. The sellers can choose to send their products from India on Gift Clearance, Normal Courier, CSB-V or proper Export shipments, based on their legal taxation requirements or to avail various Govt. Export promotion schemes. For micro, small and medium enterprises (MSME), we provide CSB-5 which enable such shippers to grow their business by selling their product internationally without going through a lengthy and time-taken procedure of export. For more details, please contact our local sales representative or click on the link below with your specific or general query."
+    },
+    {
+        "id": 2,
+        "btn": true,
+        "serviceName": "Overseas Warehousing & Return Management",
+        "img":"images/warehouse.png",
+        "useRef":"warehouse",
+        "content": "Our strategically located warehouses at New York, London, Frankfurt and Singapore, helps our clients to manage their sales returns at these centralized distribution hubs. A client can simply use these locations to receive back any shipments returned by buyers due to any reason, and utilize these packages to be reshipped to new locations, RTO as Consolidated packages or Destroy as well. A client just needs to hire some space (ranging from as low as 1 CBM) on a monthly basis. The warehousing also offers services like repackaging, consolidation/deconsolidation, reshipping etc., all this at the convenience of monitoring your stock status on our software. You can send us your queries through the below link."
+    },
+    {
+        "id": 3,
+        "btn": false,
+        "serviceName": "Air & Sea Freight",
+        "img":"images/air&seafreight.png",
+        "useRef":"airseafreight",
+        "content": "In order to offer on-time delivery of every shipments of our clients, we are associate with many of the biggest Air Carriers in the world. With extensive experience in the field of international couriers and tie-ups with major last-mile delivery companies of the world, along with major International Postal Networks, enables us to offer Door-to-Door delivery solutions for almost entire world. Our strategically placed connection on almost every airport we also provide the facility to pick your shipment from airport. A full-service package of ocean freight forwarding solution, is great option for shipping bulk goods, huge volume shipment and odd size shipment. With our wide range of sea freight, we cover almost every port in the world. We have customized cargo management services that provide most cost-effective uses of sea container space. Our expert freight forwarders will help you navigate regulations and ports as well as local pickup and last-mile delivery."
+    },
+    {
+        "id": 4,
+        "btn": true,
+        "serviceName": "Express Delivery",
+        "img":"images/expressdelivery.png",
+        "useRef":"expressdelivery",
+        "content": "For your time-sensitive shipments, we offer delivery solutions through all the major express delivery companies. You can choose between many options depending upon your budget and urgency. For major destinations like United State, Canada, United Kingdom, Europe, Australia, New Zealand, Far Eastern and Middle Eastern countries, we have a network of our delivery solutions to meet your need for speed and economy. For any query, please click on below link …"
+    },
+    {
+        "id": 5,
+        "btn": false,
+        "serviceName": "E Commerce Export Advisory Services",
+        "img":"images/advisoryservices.png",
+        "useRef":"advisoryservices",
+        "content": "We enable our customers to focus on their prime object of focusing on promoting their sales, rather than running from pillar to post to obtain various departmental clearance and registrations. Our E-Commerce advisory service helps new Vendors to get themselves registered with customs, through the process of obtaining IEC, Bank AD Code, Registering them with various EPCs, Registration at Air or Seaport Gateways, etc. Sailing our customers, smoothly to choose between various shipping options, processing of export or import clearance, managing foreign remittances, returns management, DDP clearance and delivery solutions, etc. Our team further guides new International E-Commerce sellers to make the best choice between various export/import shipping solutions, based on their products, urgency and economies."
+    },
+    {
+        "id": 6,
+        "btn": false,
+        "serviceName": "Personal Baggage",
+        "img":"images/personalbaggage.png",
+        "useRef":"personalbaggage",
+        "content": "When you are on the trip, you just love to do shopping but when you reach the airport and check-in the counters, the pretty girl tells you, “Sorry Excess Baggage!”. We help you enjoy your shopping and travel without worrying about the packing, weight or size of your purchases. Just give us a call or drop your Extra baggage to any our office around all major international airports of India (Delhi, Mumbai, Kolkata, Ahmedabad, Chennai, Bangalore, Hyderabad). And we will make delivery at your destination, Door Step at a fixed price including freight, clearance and duty/taxes etc."
+    },
+    {
+        "id": 7,
+        "btn": true,
+        "serviceName": "Sell & Ship Software",
+        "img":"images/sell&shipsoftware.png",
+        "useRef":"sellshipsoftware",
+        "content":"Through our in-house SELL & SHIP software, our customers can generate last-mile delivery labels for many countries and delivery networks, without getting into hassle of networking with many gateways, at the convenience of their office or even from their home."
+    }
+]
+}

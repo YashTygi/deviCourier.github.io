@@ -9,8 +9,7 @@ function AboutUs() {
     <div className='about-us'>
       <div className='about-us-header'>
         <h1>We are Devi Courier</h1>
-        <p>Aliquip reprehenderit fugiat eu magna aute in do. Nostrud aliquip minim proident irure ut non commodo nulla irure.</p>
-        <button className='bounce-bottom'><BsFillArrowDownSquareFill  color='#fff' size={50} /></button>
+        <button className='bounce-bottom'><BsFillArrowDownSquareFill  color='#fff' size={35} /></button>
         </div>
       <div className='about-us-article'>
        <img alt='Who-we-are' src={whoweare} />

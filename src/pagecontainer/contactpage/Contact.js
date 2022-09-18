@@ -6,7 +6,7 @@ import {default as ContactForm} from './ContactForm/ContactForm'
 
 function Contact() {
 
-  const cdata = require('../../contactVital.json')
+  const cdata = require('../../Data/contactVital.json')
 
   return (
     <div className='contacts'>
