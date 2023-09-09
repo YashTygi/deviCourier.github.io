@@ -30,6 +30,7 @@ class ContactForm extends Component {
   handleSubmit = event => {
     alert('Form has been submitted')
     event.preventDefault()
+    console.log(this.state)
   }
   render() {
     return (

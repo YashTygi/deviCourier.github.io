@@ -1,21 +1,22 @@
 import React from 'react'
-import { Navbar, Footer } from '../../components'
-import {Contentus, Header, Whychooseus, ContactTab} from '../../pagecontainer';
+import { Navbar, Footer, Bar, ContactForm } from '../../components'
+import {Contentus, Header, Whychooseus, ContactTab, Service} from '../../pagecontainer';
 import { ServicesTab } from "../../pagecontainer/servicepage/service/Service";
+import ContactWindow from '../../components/ContactWindow/ContactWindow.js';
 
 const HomePage = () => {
   return (
     <div className='Homepage'>
-    
-        <div className='bg-white'>
+        <Bar />
         <Navbar />
         <Header />
-        </div>
         <Contentus />
-        <Whychooseus />
-        <ServicesTab />
-        <ContactTab />
+        <Service />
+        <div className='centre'>
+        <ContactForm />
+        </div>
         <Footer />
+
     </div>
   )
 }

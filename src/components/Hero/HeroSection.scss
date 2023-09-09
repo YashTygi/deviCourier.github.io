@@ -1,0 +1,77 @@
+.hero_heading_container{
+    min-height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero_heading{
+    color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 4.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: 5rem;
+width: 70%;
+margin-bottom: 5rem;
+}
+
+.arrow_down{
+    position: absolute;
+    bottom: 7%;
+
+
+}
+
+.arrow_val{
+    font-size: 3rem;
+    animation: myAnim 3s ease-out 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(-45px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(-24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(-12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(-6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(-4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}

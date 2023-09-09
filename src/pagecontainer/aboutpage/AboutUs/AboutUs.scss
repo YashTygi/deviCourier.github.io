@@ -1,136 +1,71 @@
-$white: #fff;
-$navy-blue: #065a82;
-$blue-grotto: #00b4d8;
-$blue:rgb(107,166,236);
-$grey: #aeaeae;
-$black:#000;
-$yellow: #ffc41f;
+.about-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5.31rem;
+    margin: 0rem 10rem  5rem 10rem;
+}
 
 
-.about-us-header{
-    background-image:url('../../../assets/about-us-background.jpg');
-    background-color: rgb(220, 234, 245);
-    background-repeat: none;
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-
+.about-values{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-
-    h1{
-        font-size: 4rem;
-        font-weight: 600;
-        text-align: justify;
-        color: $navy-blue;
-    }
-    button{
-        border: none;
-        outline: none;
-        margin-top: 4rem;
-    }
-}
-.bounce-bottom {
-	-webkit-animation: bounce-bottom 2s ease-in-out 0.5s infinite both;
-	        animation: bounce-bottom 2s ease-in-out 0.5s infinite both;
-}
-
- @-webkit-keyframes bounce-bottom{0%{-webkit-transform:translateY(45px);transform:translateY(45px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:1}24%{opacity:1}40%{-webkit-transform:translateY(24px);transform:translateY(24px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}65%{-webkit-transform:translateY(12px);transform:translateY(12px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}82%{-webkit-transform:translateY(6px);transform:translateY(6px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}93%{-webkit-transform:translateY(4px);transform:translateY(4px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}25%,55%,75%,87%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}100%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:1}}@keyframes bounce-bottom{0%{-webkit-transform:translateY(45px);transform:translateY(45px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:1}24%{opacity:1}40%{-webkit-transform:translateY(24px);transform:translateY(24px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}65%{-webkit-transform:translateY(12px);transform:translateY(12px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}82%{-webkit-transform:translateY(6px);transform:translateY(6px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}93%{-webkit-transform:translateY(4px);transform:translateY(4px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}25%,55%,75%,87%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}100%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:1}}
-
- @media screen and (max-width: 1280px) {
-    .about-us-header{
-        h1{
-            font-size: 3rem;
-        }
-    }
- }
- @media screen and (max-width: 850px) {
-    .about-us-header{
-        background-size: 120%;
-        h1{
-            font-size: 2.6rem;
-        }
-    }
- }
- @media screen and (max-width: 700px){
-    .about-us-header{
-        h1{
-            font-size: 2.1rem;
-        }
-    }
- }
- @media screen and (max-width: 450px) {
-    .about-us-header{
-        h1{
-            font-size:1.7rem;
-        }
-    }
- }
-// Who We Are ?????
-
-.about-us-article{
-    min-height: 80vh;
-    display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    img{
-        height: 120%;
-        width: 42%;
-    }
+    gap: 2.25rem;
 }
-.who-we-are{
-    width: 50%;
-    h1{
-        font-size: 2rem;
-        font-weight: 600;
-        color: $navy-blue;
-        text-align: center;
+
+.about-value-card{
+    width: 100%;
+    height: 13.375rem;
+    
+    border-radius: 1rem;
+    padding: 1rem;
+background: #C3E5FF;
+ h5{
+    color: #000;
+text-align: center;
+margin: 0 auto ;
+font-family: Avenir;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 1.95rem */
+width: 88%;
+ }
+
+   p{
+    color: #000;
+text-align: center;
+font-family: Avenir;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 1.3rem */
+margin-top: 1.5rem;
+   }
+
+}
+
+.about-story{
+    margin-left: 2.5rem;
+    h3{
+        color: #898989;
+font-family: Avenir;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 2.25rem */
     }
+
     p{
-        font-size: 1.1rem;
-        font-weight: 400;
-        color: $black;
-        text-align: justify;
-    }
-}
-
-@media screen and (max-width: 1250px) {
-    .who-we-are{
-        p{
-            font-size: 0.98rem;
-        }
-    }
-}
-@media screen and (max-width: 1050px) {
-    .who-we-are{
-        h1{
-            font-size: 1.8rem;
-        }
-    }
-}
-@media screen and (max-width: 850px) {
-    .about-us-article{
-        flex-direction: column;
-        img{
-            width: 50%;
-        }
-    }
-    .who-we-are{
-        width: 80%;
-    }
-}
-
-@media screen and  (max-width: 550px) {
-    .who-we-are{
-        h1{
-            font-size: 1.6rem;
-        }
-        p{
-            font-size: 0.85rem;
-        }
+        color: #000;
+font-family: Avenir;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 1.6875rem */
+margin-top: 1.5rem;
     }
 }

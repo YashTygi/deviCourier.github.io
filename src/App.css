@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 
 :root {
   --font-family: 'Nunito', sans-serif;
@@ -17,30 +18,27 @@
 }
 
 body {
-  font-family: var(--font-family);
-  background-color: var(--bg-color);
+  background-color:hsl(0, 0%, 100%);
+  /* background: 
+  url("data:image/svg+xml,%3Csvg viewBox='0 0 254 254' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='30' numOctaves='1' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E"); */
   overflow-x: hidden;
+  opacity: 1;
 }
 
 a {
   color: unset;
   text-decoration: none;
 }
-.bg-white{
-  background: #fff;
+
+
+
+.centre{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.section_padding {
-  padding: 3rem 3rem 1.2rem 3rem;
-}
-
-.section_margin {
-  margin: 1rem 3rem;
-}
-
-.focus{
-  color: var(--yellow)
-}
 
 .scale-up-center {
 	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;

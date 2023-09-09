@@ -10,7 +10,7 @@ function Contact() {
 
   return (
     <div className='contacts'>
-    <Link to='/'><span><BsFillArrowLeftCircleFill className='leftarrow' />Go back to Home Page</span></Link>
+    
     <div className='contacts-form'>
     <div className='getintouch'>
      <h1>Get In Touch</h1>

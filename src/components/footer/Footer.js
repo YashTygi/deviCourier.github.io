@@ -8,28 +8,22 @@ const Footer = () => {
   const cdata = require('../../Data/contactVital.json')
 
   return (
-    <div className='footer section-padding'>
-        <div className='self-section'>
+    <div className='footer'>
+
         <div className='navbar_logo'>
             <img src={logo} alt='logo' />
             <p className='logo-title'>
              <Link to='/'>Devi Courier</Link>
             </p>
           </div>
-          <p><Link to='/' className='focus'>Devi Courier</Link> is a global supplier of transport and logistics solutions. We have offices in more than 20 countries and an international network of partners and agents.</p>
-          <div className='social-section'>
-            <a href={cdata.facebookAddress}><FaFacebookF color='#fff' /></a>
-            <a href={cdata.twitterHandle}><FaTwitter color='#fff' /></a>
-            <a href={cdata.instagramId}><FaInstagram color='#fff' /></a>
-            <a href={cdata.linkedinAccount}><FaLinkedin color='#fff' /></a>
-         </div>
+          <p>Empowering Connections through Reliable Deliveries. Devi Courier: Trust, Professionalism, and Your Bridge to Seamless Service.</p>
+          
          <div className='nav-section'>
-         <p className='link'><Link to='/'>Home</Link></p>
          <p className='link'><Link to='/about-us'>About Us</Link></p>
          <p className='link'><Link to='/service'>Services</Link></p>
          <p className='link'><Link to='/contact-us'>Contact us</Link></p>
          </div>
-         </div>
+
 
          
       <div className='copyright-section'>

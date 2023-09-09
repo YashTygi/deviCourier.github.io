@@ -12,15 +12,16 @@ const Service = () => {
   },[])
   return (
     <div className='services-container'>
+    <p className='services-head'>Our Services</p>
       {
         serviceData.ServiceInfo.map((serve) => {
           let decide = serve.id % 2;
           return(
               <div className={decide === 0 ? "row" : "row-reverse"} key={serve.id}>
-               <div className='service-images' data-aos="fade-up" data-aos-duration='1000' data-aos-delay='100'>
+               <div className='service-images' data-aos="fade-up" data-aos-duration='500' data-aos-delay='50'>
                 <img src={serve.img} alt='services-we-offer'/>
                </div>
-               <div className='service-content' data-aos="fade-up" data-aos-duration='1000' data-aos-delay='500'> 
+               <div className='service-content' data-aos="fade-up" data-aos-duration='500' data-aos-delay='150'> 
                 <h1>{serve.serviceName}</h1>
                 <p>{serve.content}</p>
                </div>

@@ -11,90 +11,64 @@
     $font-size-bolder: 900;
 
 
-.section-padding{
-    padding: 1rem 2rem 0 2rem;
-}
+
 
 .footer{
-    min-height: 28vh;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    gap: 1.6rem;
+    gap: 1.5rem;
+    margin-top: 5rem;
 
-    background: $navy-blue;
-    color: #fff;
+    p:nth-child(2){
+        color: #000;
+text-align: center;
+font-family: Avenir;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 30%;
+    }
+    
 }
 
-.self-section{
-    width: 40%;
-   p{
-    text-align: center;
-    font-size: 0.96rem;
-    color: #fff;
-    word-break: keep-all;
-    letter-spacing: 0.01rem;
-}
-}
+
+.footer{
 .nav-section{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 0.5rem;
+ p {color: #000;
+text-align: center;
+font-family: Avenir;
+font-size: 1.1rem;
+font-weight: 400;
+width: 5.5625rem;
 }
-.social-section{
-    padding-top: 0.5rem;
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 45%;
-    span{
-        border: 3.4px solid #fff;
-        border-radius: 50%;
-    
-        padding: 0.5rem;
-        margin: 0.5rem;
-    
-        width: 50px;
-        height: 50px;
-    
-        background: $blue-grotto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
+}
 }
 
 
 
-.focus {
-    font-size: 0.96rem;
-    color: $yellow;
-}
 
 .copyright-section{
-    background: $navy-blue;
-    color: $light-blue;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.7rem 1rem;
-    margin-top: 0.2rem;
-
-    position: relative;
-    a{
-        color:$yellow;
-    }
+    color: #000;
+text-align: center;
+font-family: Avenir;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 0.5rem;
 }
 
 
 @media screen and (max-width: 1050px) {
-    .section-padding{
-        padding: 1.7rem 1rem;
-    }
+
     .self-section{
         padding-right: 1rem;
         p{

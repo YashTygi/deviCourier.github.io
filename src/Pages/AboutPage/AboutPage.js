@@ -1,14 +1,17 @@
 import React from 'react'
-import { Navbar, Footer } from '../../components'
+import { Navbar, Footer, HeroSection, Bar, ContactForm } from '../../components'
 import {AboutUs, Feature, ContactTab} from '../../pagecontainer'
 
 function AboutPage() {
   return (
     <div>
+    <Bar />
     <Navbar />
+    <HeroSection heading={"We're More Than Couriers, We're Your Delivery Allies"} />
     <AboutUs />
-    <Feature />
-    <ContactTab />
+    <div className='centre'>
+    <ContactForm />
+    </div>
     <Footer />
     </div>
   )

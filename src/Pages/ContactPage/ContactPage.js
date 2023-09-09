@@ -1,12 +1,14 @@
 import React from 'react'
-import {Contact} from '../../pagecontainer'
-import {Footer } from '../../components'
+
+import {Footer, ContactWindow, Navbar } from '../../components'
+
 
 
 function ContactPage() {
   return (
     <div>
-       <Contact />
+       <Navbar />
+       <ContactWindow />
        <Footer />
     </div>
   )
