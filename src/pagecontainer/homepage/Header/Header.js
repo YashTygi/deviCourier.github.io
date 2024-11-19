@@ -7,7 +7,6 @@ import {FiTruck} from 'react-icons/fi';
 const Header = () => {
   return (
     <div className='header section_padding'>
-     <div className='blob'></div>
       <div className='header-content'>
         <h1 className='heading'>Delivering <br/> Your Promises</h1>
         <p>Reliable delivery for documents, parcels, and more. Your promises, our priority. </p>

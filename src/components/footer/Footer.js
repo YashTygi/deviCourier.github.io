@@ -2,10 +2,8 @@ import React, { useState } from 'react'
 import {Link} from 'react-router-dom';
 import "./Footer.scss"
 import logo from "../../assets/logo.png"
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
-  const cdata = require('../../Data/contactVital.json')
 
   return (
     <div className='footer'>
